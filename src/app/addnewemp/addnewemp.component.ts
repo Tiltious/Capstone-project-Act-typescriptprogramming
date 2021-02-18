@@ -15,7 +15,7 @@ export class AddnewempComponent implements OnInit {
   constructor(private empdetails:EmployeesService,private validator:GetValidationService) { }
   
   empcontrol=new FormGroup({
-    emp_id:new FormControl('',[this.validator.val(this.empdetails.myemployees),Validators.required]),
+    emp_id:new FormControl('',[Validators.pattern('^[0-9]*$'),this.validator.val(this.empdetails.myemployees),Validators.required]),
     name:new FormControl('',[Validators.minLength(3),Validators.maxLength(255),Validators.required]),
     email:new FormControl('',[Validators.email,Validators.required])
   })
