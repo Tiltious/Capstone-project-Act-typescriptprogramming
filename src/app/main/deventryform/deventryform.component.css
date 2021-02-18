@@ -1,0 +1,14 @@
+#deventrycard{
+    font-weight: 600;
+    background-color: rgba(38, 65, 65, 0.925);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px  black;
+    box-shadow: 0px 0px 4px  black;
+}
+input.ng-valid.ng-dirty{
+    border-right: 6px solid green;
+    z-index: 2;
+}
+input.ng-invalid.ng-dirty{
+    border-right: 6px solid red;
+}

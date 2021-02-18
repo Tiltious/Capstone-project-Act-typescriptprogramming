@@ -1,0 +1,50 @@
+#mainbarheader h2 {
+    padding: 5px 0px;
+    font-weight: bold;
+    box-shadow: 0px 1px 4px  #343a40;
+    text-align: center;
+    color: white
+}
+#devcard, #empcard{
+    background-color: rgba(38, 65, 65, 0.925) ;
+    box-shadow: 0px 1px 4px  black;
+}
+#devcard li, #empcard li{
+    background-color: rgba(195, 226, 226, 0.925) ;
+
+}
+#devcard li:hover{
+    background-color: rgba(91, 150, 150, 0.925); ;
+
+}
+#devform{    
+    position: absolute;
+    left: 23.5%;
+    top: 15%;
+    z-index:1;
+}
+#empform{    
+    position: absolute;
+    left: 16.5%;
+    top: 15%;
+    z-index:2;
+}
+#devcard ul{
+
+    height:300px;
+    overflow-y:scroll;
+}
+.modal{
+    background-color: rgba(91, 150, 150, 0.123);                                                                                                                                                                                                                                                                                                                                                                         ;
+}
+.modal-content{
+    background-color: rgba(195, 226, 226, 0.973);
+}
+#devupdate{
+    position: absolute;
+    top: 13.2%;
+    right: 19%;
+    padding: 20px;
+    z-index: 2;    
+    
+}

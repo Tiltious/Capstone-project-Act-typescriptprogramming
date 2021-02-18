@@ -1,0 +1,8 @@
+<div class="vertical-menu" id="sidelist">
+    <ul class="list-group">
+        <li *ngFor="let emp of myemployees" (click)="sendemployee(emp)" class="list-group-item">
+            {{emp.name}}
+        </li>
+    </ul>
+
+</div>

@@ -1,0 +1,15 @@
+#sidebar h3 {
+    padding: 7.5px 0px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    box-shadow: 0px 1px 4px  #343a40;
+    text-align: center;
+    color: white;
+    background-color: #343a40;
+    transition: 0.5s
+}
+#sidebar h3:hover{
+    color: #343a40;
+    background-color:rgba(91, 150, 150, 0.925);
+    
+}
