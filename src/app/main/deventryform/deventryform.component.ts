@@ -18,7 +18,7 @@ export class DeventryformComponent implements OnInit {
     private validator:GetValidationService
   ) { }
   devcontrols=new FormGroup({
-    sn:new FormControl('',[Validators.maxLength(255),this.validator.devval(this.devservice.mydevices),Validators.required]),
+    sn:new FormControl('',[Validators.pattern('^[0-9]*$'),Validators.maxLength(255),this.validator.devval(this.devservice.mydevices),Validators.required]),
     description:new FormControl("",[Validators.maxLength(255),Validators.required]),
     type:new FormControl('',[Validators.pattern('^[0-9]*$'),Validators.required])
   })
